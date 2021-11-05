@@ -1,0 +1,127 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20%;
+}
+.main h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main .btn{
+    height: 50px;
+    width: 300px;
+    background-color: #EBC001;
+    border-color: #EBC001;
+    color: black;
+    border-radius: 5%;
+    padding: 5px;
+}
+.main .btn:hover{
+    background-color: white;
+    color:black;
+}
+
+.toggle{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: rgb(25, 64, 148);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15%;
+}
+.toggle .toggler { 
+    width: 500px; 
+    height: 200px; 
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+#button { 
+    height: 50px;
+    width: 300px;
+    padding: 2px;
+    margin-top: 10px;
+    background-color: white;
+    border-color: white;
+    color: rgb(25, 64, 148);
+    font-family: 'Ubuntu', sans-serif;
+}
+#button:hover{
+    background-color: rgb(25, 64, 148);
+    color: white;
+}
+#effect { 
+    width: 240px; 
+    height: 170px; 
+    padding: 0.4em; 
+    position: relative; 
+    background: #fff; }
+#effect h3 { 
+    margin: 0; 
+    padding: 0.4em; 
+    text-align: center; 
+}
+
+.book{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: rgb(25, 64, 148);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.book h1{
+    color: rgb(25, 64, 148);
+}
+.book input{
+    height: 30px;
+    width: 500px;
+}
+.book form{
+    width: 500px;
+}
+
+.book .btn{
+    height: 50px;
+    width: 300px;
+    padding: 2px;
+    margin-top: 10px;
+    background-color: rgb(25, 64, 148);
+    border-color: rgb(25, 64, 148);
+    color: white;
+}
+.book .btn:hover{
+    background-color: white;
+    color: rgb(25, 64, 148);
+}
+.book .content{
+    margin: 10%;
+    display: inline-block;
+}
+.book label{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
